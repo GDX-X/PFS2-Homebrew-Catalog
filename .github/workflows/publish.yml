@@ -1,0 +1,23 @@
+name: Publish catalog
+on:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build catalog package
+        run: python3 tools/build_release.py
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          dist/catalog.zip dist/manifest.json
+          --verify-tag
+          --title "Homebrew catalog $GITHUB_REF_NAME"
+          --notes "Catalog, artwork and PFS resources for PFS2 HDD Manager."

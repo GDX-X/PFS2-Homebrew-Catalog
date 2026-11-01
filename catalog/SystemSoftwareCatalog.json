@@ -1,0 +1,350 @@
+[
+  {
+    "name": "System softwares",
+    "items": [
+      {
+        "title": "HDD-OSD Browser 2.00",
+        "installer": "hdd_osd_archive",
+        "version": "1.10U",
+        "copyright_notice": "These files are copyrighted by Sony. PFS2 HDD Manager cannot provide them free of charge. You must obtain the files yourself.",
+        "description": "HDD-OSD also known as Browser 2.00 is an update to the original OSD-SYS by Sony to boot from the Hard Drive",
+        "image": [
+          "libs",
+          "HomebrewCatalog",
+          "assets",
+          "HDD-OSD",
+          "icon.png"
+        ],
+        "authors": [
+          "Sony"
+        ],
+        "screenshots": [
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "HDD-OSD",
+            "screenshot-01.png"
+          ],
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "HDD-OSD",
+            "screenshot-02.png"
+          ]
+        ],
+        "details": [
+          {
+            "label": "Category",
+            "value": "System software"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Game Loader",
+    "items": [
+      {
+        "title": "Open PS2 Loader",
+        "application_id": "APPS_000.02",
+        "description": "Popular game loader for PS2.",
+        "image": [
+          "libs",
+          "HomebrewCatalog",
+          "assets",
+          "APPS_000.02",
+          "icon.png"
+        ],
+        "authors": [
+          "Ifcaro",
+          "jimmikaelkael"
+        ],
+        "screenshots": [
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "APPS_000.02",
+            "screenshot-01.png"
+          ],
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "APPS_000.02",
+            "screenshot-02.jpg"
+          ]
+        ],
+        "details": [
+          {
+            "label": "Category",
+            "value": "Game loader"
+          },
+          {
+            "label": "License",
+            "value": "Open source"
+          }
+        ],
+        "source_url": "https://github.com/ps2homebrew/Open-PS2-Loader",
+        "download_url": "https://github.com/ps2homebrew/Open-PS2-Loader/releases/download/latest/OPNPS2LD.ELF",
+        "installer": "elf_download"
+      },
+      {
+        "title": "ESR",
+        "application_id": "APPS_000.07",
+        "browser_visible": false
+      },
+      {
+        "title": "Open PS2 Loader Stable",
+        "application_id": "APPS_000.16",
+        "browser_visible": false
+      }
+    ]
+  },
+  {
+    "name": "File Manager",
+    "items": [
+      {
+        "title": "wLaunchELF",
+        "application_id": "APPS_000.01",
+        "pfs_resources": [
+          "assets",
+          "APPS_000.01",
+          "pfs"
+        ],
+        "description": "Essential PS2 file manager and launcher used to browse devices, run ELF files, and maintain storage content.",
+        "authors": [],
+        "screenshots": [
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "APPS_000.01",
+            "browser",
+            "screenshot-01.png"
+          ],
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "APPS_000.01",
+            "browser",
+            "screenshot-02.png"
+          ]
+        ],
+        "details": [
+          {
+            "label": "Category",
+            "value": "File manager"
+          }
+        ],
+        "download_url": "https://github.com/ps2homebrew/wLaunchELF/releases/download/latest/BOOT.ELF",
+        "source_url": "https://github.com/ps2homebrew/wLaunchELF",
+        "image": [
+          "libs",
+          "HomebrewCatalog",
+          "assets",
+          "APPS_000.01",
+          "browser",
+          "icon.png"
+        ],
+        "installer": "elf_download"
+      },
+      {
+        "title": "wLaunchELF kHn",
+        "application_id": "APPS_000.09",
+        "browser_visible": false
+      }
+    ]
+  },
+  {
+    "name": "Utilities",
+    "items": [
+      {
+        "title": "Memory Card Annihilator",
+        "application_id": "APPS_000.03",
+        "browser_visible": false
+      },
+      {
+        "title": "HDD Checker",
+        "application_id": "APPS_000.04",
+        "browser_visible": false
+      },
+      {
+        "title": "Graphics Synthesizer Mode",
+        "application_id": "APPS_000.06",
+        "browser_visible": false
+      },
+      {
+        "title": "Cheat Device PS2 PAL",
+        "application_id": "APPS_000.17",
+        "browser_visible": false
+      },
+      {
+        "title": "Cheat Device PS2 NTSC-U",
+        "application_id": "APPS_000.18",
+        "browser_visible": false
+      },
+      {
+        "title": "Cheat Device PS2 NTSC-J",
+        "application_id": "APPS_000.19",
+        "browser_visible": false
+      },
+      {
+        "title": "Apollo Save Tool",
+        "application_id": "APPS_000.20",
+        "browser_visible": false
+      }
+    ]
+  },
+  {
+    "name": "Emulators",
+    "items": [
+      {
+        "title": "Ember",
+        "installer": "ember",
+        "authors": [
+          "Gageformer"
+        ],
+        "description": "Ember is a PlayStation emulator for PS2 that runs BIN/CUE disc images from your storage device through a homebrew launcher such as OPL or wLaunchELF. It includes automatic virtual memory cards for each game, analog controls, rumble, and a choice of 240p or 480i video output. Compatibility and performance vary by game as development continues.",
+        "image": [
+          "libs",
+          "HomebrewCatalog",
+          "assets",
+          "Ember",
+          "icon.png"
+        ],
+        "screenshots": [
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "Ember",
+            "screenshot-01.png"
+          ],
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "Ember",
+            "screenshot-02.png"
+          ]
+        ],
+        "copyright_notice": "A bios.bin file is required.\nPFS2 HDD Manager cannot provide it.",
+        "source_url": "https://github.com/Gageformer/Ember",
+        "details": [
+          {
+            "label": "Category",
+            "value": "PlayStation emulator"
+          }
+        ],
+        "downloads": {
+          "ember": {
+            "type": "github_releases",
+            "url": "https://api.github.com/repos/Gageformer/Ember/releases?per_page=20",
+            "asset_name": "ember.elf",
+            "asset_url_prefix": "https://github.com/Gageformer/Ember/releases/download/"
+          },
+          "launcher": {
+            "type": "direct",
+            "url": "https://github.com/NathanNeurotic/launcHER/releases/download/nightly/launcHER.elf"
+          }
+        }
+      },
+      {
+        "title": "POPS Binaries",
+        "copyright_notice": "These files are copyrighted by Sony. PFS2 HDD Manager cannot provide them free of charge. You must obtain the files yourself.",
+        "installer": "pops_zip",
+        "description": "POPS also known as SLBB-00001 is an official Sony emulator of the PlayStation (PS1) for PlayStation 2 (PS2).",
+        "image": [
+          "libs",
+          "HomebrewCatalog",
+          "assets",
+          "POPS",
+          "icon.png"
+        ],
+        "authors": [
+          "Sony"
+        ],
+        "screenshots": [
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "POPS",
+            "screenshot-01.png"
+          ],
+          [
+            "libs",
+            "HomebrewCatalog",
+            "assets",
+            "POPS",
+            "screenshot-02.png"
+          ]
+        ],
+        "details": [
+          {
+            "label": "Identifier",
+            "value": "SLBB-00001"
+          },
+          {
+            "label": "Category",
+            "value": "PlayStation emulator"
+          }
+        ]
+      },
+      {
+        "title": "RetroArch",
+        "application_id": "APPS_000.10",
+        "browser_visible": false
+      }
+    ]
+  },
+  {
+    "name": "MultiMedia",
+    "items": [
+      {
+        "title": "Simple Media System",
+        "application_id": "APPS_000.08",
+        "browser_visible": false
+      }
+    ]
+  },
+  {
+    "name": "Hardware",
+    "items": [
+      {
+        "title": "PlayStation 2 Identification tool",
+        "application_id": "APPS_000.05",
+        "browser_visible": false
+      },
+      {
+        "title": "MechaPwn",
+        "application_id": "APPS_000.11",
+        "browser_visible": false
+      },
+      {
+        "title": "Lens Changer",
+        "application_id": "APPS_000.12",
+        "browser_visible": false
+      },
+      {
+        "title": "PS2 RDRAM Test",
+        "application_id": "APPS_000.13",
+        "browser_visible": false
+      },
+      {
+        "title": "PS2 Controller Tester",
+        "application_id": "APPS_000.14",
+        "browser_visible": false
+      },
+      {
+        "title": "PS2 Temperature",
+        "application_id": "APPS_000.15",
+        "browser_visible": false
+      }
+    ]
+  }
+]
