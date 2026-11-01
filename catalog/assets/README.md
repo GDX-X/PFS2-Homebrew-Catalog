@@ -21,6 +21,5 @@ Drop `screenshot-01.png` and `screenshot-02.png` into the application's director
 then reopen the software browser. No JSON change is needed for these two slots.
 Missing images display "Not available". Additional screenshots need catalog entries.
 Applications with an APPS ID use that ID as their directory name.
-APPS_000.20 (Apollo), APPS_000.03 (MCA) and APPS_000.08 (SMS)
-contain existing icons for future catalog entries.
+The current catalog includes wLaunchELF, Open PS2 Loader, POPS, Ember and HDD-OSD.
 The shared `github.png` icon stays at this directory's root.

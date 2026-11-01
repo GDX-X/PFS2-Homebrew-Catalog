@@ -90,16 +90,6 @@
         "source_url": "https://github.com/ps2homebrew/Open-PS2-Loader",
         "download_url": "https://github.com/ps2homebrew/Open-PS2-Loader/releases/download/latest/OPNPS2LD.ELF",
         "installer": "elf_download"
-      },
-      {
-        "title": "ESR",
-        "application_id": "APPS_000.07",
-        "browser_visible": false
-      },
-      {
-        "title": "Open PS2 Loader Stable",
-        "application_id": "APPS_000.16",
-        "browser_visible": false
       }
     ]
   },
@@ -151,53 +141,12 @@
           "icon.png"
         ],
         "installer": "elf_download"
-      },
-      {
-        "title": "wLaunchELF kHn",
-        "application_id": "APPS_000.09",
-        "browser_visible": false
       }
     ]
   },
   {
     "name": "Utilities",
-    "items": [
-      {
-        "title": "Memory Card Annihilator",
-        "application_id": "APPS_000.03",
-        "browser_visible": false
-      },
-      {
-        "title": "HDD Checker",
-        "application_id": "APPS_000.04",
-        "browser_visible": false
-      },
-      {
-        "title": "Graphics Synthesizer Mode",
-        "application_id": "APPS_000.06",
-        "browser_visible": false
-      },
-      {
-        "title": "Cheat Device PS2 PAL",
-        "application_id": "APPS_000.17",
-        "browser_visible": false
-      },
-      {
-        "title": "Cheat Device PS2 NTSC-U",
-        "application_id": "APPS_000.18",
-        "browser_visible": false
-      },
-      {
-        "title": "Cheat Device PS2 NTSC-J",
-        "application_id": "APPS_000.19",
-        "browser_visible": false
-      },
-      {
-        "title": "Apollo Save Tool",
-        "application_id": "APPS_000.20",
-        "browser_visible": false
-      }
-    ]
+    "items": []
   },
   {
     "name": "Emulators",
@@ -294,57 +243,15 @@
             "value": "PlayStation emulator"
           }
         ]
-      },
-      {
-        "title": "RetroArch",
-        "application_id": "APPS_000.10",
-        "browser_visible": false
       }
     ]
   },
   {
     "name": "MultiMedia",
-    "items": [
-      {
-        "title": "Simple Media System",
-        "application_id": "APPS_000.08",
-        "browser_visible": false
-      }
-    ]
+    "items": []
   },
   {
     "name": "Hardware",
-    "items": [
-      {
-        "title": "PlayStation 2 Identification tool",
-        "application_id": "APPS_000.05",
-        "browser_visible": false
-      },
-      {
-        "title": "MechaPwn",
-        "application_id": "APPS_000.11",
-        "browser_visible": false
-      },
-      {
-        "title": "Lens Changer",
-        "application_id": "APPS_000.12",
-        "browser_visible": false
-      },
-      {
-        "title": "PS2 RDRAM Test",
-        "application_id": "APPS_000.13",
-        "browser_visible": false
-      },
-      {
-        "title": "PS2 Controller Tester",
-        "application_id": "APPS_000.14",
-        "browser_visible": false
-      },
-      {
-        "title": "PS2 Temperature",
-        "application_id": "APPS_000.15",
-        "browser_visible": false
-      }
-    ]
+    "items": []
   }
 ]
